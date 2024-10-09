@@ -1,0 +1,15 @@
+{
+    "builds": [
+      {
+        "src": "api/saveNote.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/api/saveNote",
+        "dest": "/api/saveNote.js"
+      }
+    ]
+  }
+  
